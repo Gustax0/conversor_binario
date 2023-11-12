@@ -5,8 +5,8 @@ class App:
         self.root = tk.Tk()
         self.input = tk.StringVar()
         self.resultado_var = tk.StringVar()
-        self.input2 = tk.StringVar()  # Adiciona uma nova variável de StringVar
-        self.resultado_var2 = tk.StringVar()  # Adiciona uma nova variável de StringVar
+        self.input2 = tk.StringVar() 
+        self.resultado_var2 = tk.StringVar() 
         self.window()
         self.interface()
 
